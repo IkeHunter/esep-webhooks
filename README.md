@@ -1,5 +1,7 @@
 # Esep Webhook
 
+## CLI Commands
+
 Create IAM role:
 
 ```sh
@@ -39,3 +41,9 @@ zip function.zip index.mjs
 aws lambda update-function-code --function-name EsepWebhook \
 --zip-file fileb://function.zip
 ```
+
+## Extra Resources
+
+- Create lambda with node.js: <https://medium.com/@andrevieira.cloud/how-to-create-lambda-function-with-runtime-nodejs-using-the-aws-cli-fd5dcde33c76>
+- Lambda cli: <https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html>
+- Add env variables to lambda via cli: <https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html>
